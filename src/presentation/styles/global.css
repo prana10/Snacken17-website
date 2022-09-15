@@ -1,0 +1,28 @@
+/* import font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.landingImage {
+    animation-name: mymove;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    animation-duration: 1.8s;
+    rotate: -45deg;
+}
+
+
+@keyframes mymove {
+    from {
+        transform: translateY(-10px);
+    }
+
+
+    to {
+        transform: translateY(10px);
+    }
+
+}
