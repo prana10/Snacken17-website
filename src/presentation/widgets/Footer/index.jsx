@@ -51,7 +51,7 @@ export default function Footer() {
           </div>
           <div className="p-6 w-full lg:col-span-3 xl:col-auto">
             <span className='text-natural0'>Newsletter</span>
-            <p className='text-natural0 font-thin'>Never miss anything crypto when you're on the go</p>
+            <p className='text-natural0 font-thin'>Never miss any products from uso</p>
             <div className="flex gap-4 my-4">
               <div>
                 <input type="email" className="border border-lightgray rounded-xl p-4 outline-none focus:border-primary w-full" placeholder="Enter your email" />
