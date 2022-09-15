@@ -1,7 +1,7 @@
 import React from 'react'
-import Layout from '../widgets/Layout'
 import Logo from '../assets/logo.svg'
-export default function Contact() {
+import Layout from '../widgets/Layout'
+export default function About() {
     return (
         <Layout>
             <div className="flex justify-center h-screen items-center">

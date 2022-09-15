@@ -13,7 +13,7 @@ export default function LandingSection() {
 
   const scrollDownMethod = () => {
     window.scrollTo({
-      bottom: 200,
+      top: window.innerHeight - 100,
       behavior: 'smooth'
     });
   };

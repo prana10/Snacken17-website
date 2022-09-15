@@ -4,12 +4,9 @@ import { BsCheckCircleFill } from 'react-icons/bs';
 
 import cimolImage from '../../assets/illustrations/cimol.png';
 import PrimaryButton from '../buttons/PrimaryButton';
-
+import { Link } from 'react-router-dom';
 export default function CimolMerconSection() {
 
-  const navigateToForm = () => {
-    window.location.href = '/form';
-  }
 
   return (
     <section className="container mx-auto py-32 mb-24">
@@ -34,9 +31,11 @@ export default function CimolMerconSection() {
               </li>
             </ul>
 
-            <PrimaryButton className="w-full" onClick={navigateToForm}>
-              Buy Now
-            </PrimaryButton>
+            <Link to='/form'>
+              <PrimaryButton className="w-full">
+                Buy Now
+              </PrimaryButton>
+            </Link>
           </div>
         </div>
         <div className='row-start-1 md:col-start-2 mb-12'>
