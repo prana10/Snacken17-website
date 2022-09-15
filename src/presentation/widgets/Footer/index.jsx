@@ -68,7 +68,7 @@ export default function Footer() {
       <div className="text-center py-6">
         <p className="text-natural0">© Copyright 2022 Snacken LLC. All rights reserved</p>
         <small className='text-natural0'>
-          Design & Code by Prana dhikasara, checkout the repository <a href="/" className="text-primary" target="_blank" rel='noreferrer'>here</a>
+          Design & Code by Prana dhikasara, checkout the repository <a href="https://github.com/prana10/Snacken17-website" className="text-primary" target="_blank" rel='noreferrer'>here</a>
         </small>
       </div>
     </footer>
