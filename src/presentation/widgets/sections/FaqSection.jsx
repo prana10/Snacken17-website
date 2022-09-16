@@ -51,7 +51,7 @@ export default function FaqSection() {
             </h2>
             <div className="my-6">
               <FaqItem open={true} title="Mengapa saya harus memilih Snacken?">
-                Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem. Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem.
+                Karena kami menyediakan produk yang berkualitas dan terpercaya. Kalian dapat memesan secara Pre-Order melalui Whatsapp langsung ataupun Lewat Website / Aplikasi.
               </FaqItem>
               <FaqItem open={false} title="Bagaimana Cara Memesan Lewat Whatsapp?">
                 Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem. Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem.
