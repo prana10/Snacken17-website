@@ -18,7 +18,7 @@ export default function LandingSection() {
   };
 
   const openWhatsapp = () => {
-    window.open('https://wa.me/6281293515750', '_blank');
+    window.open('https://wa.me/6281293515740', '_blank');
   }
 
   const openInstagram = () => {
