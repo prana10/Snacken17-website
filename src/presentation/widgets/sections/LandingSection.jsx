@@ -18,7 +18,7 @@ export default function LandingSection() {
   };
 
   const openWhatsapp = () => {
-    const note = 'Hi, saya ingin memesan cimol/es lumut (pilih salah satu atau keduanya) dengan jumlah ... (isi jumlah) dan saya ingin memesannya untuk tanggal ... (isi tanggal). nama ...(isi nama). kelas ... (khusus siswa/guru smkn 17). Rasa ... (khusus Cimol). Note ...(isi jika ada keterangan tambahan) Terima kasih.';
+    const note = 'Hi, saya ingin memesan ... dengan jumlah ...  dan saya ingin memesannya untuk tanggal .... nama ... kelas ... (khusus siswa/guru smkn 17). Rasa ... (khusus Cimol). Note .. Terima kasih.';
     window.open('https://wa.me/6281293515740?text=' + note, '_blank');
   }
 
