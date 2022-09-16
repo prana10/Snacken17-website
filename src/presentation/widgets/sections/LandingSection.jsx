@@ -1,6 +1,5 @@
 import React from 'react';
-import { FaWindows, FaLinux, FaAndroid } from 'react-icons/fa';
-
+import { FaWindows, FaLinux, FaAndroid, FaWhatsapp, FaInstagram } from 'react-icons/fa';
 import abstractImage from '../../assets/illustrations/abstractImage.png';
 import PrimaryButton from '../buttons/PrimaryButton';
 import BlueCircleParticle from '../particles/BlueCircleParticle';
@@ -11,12 +10,20 @@ import DropdownButton from '../buttons/DropdownButton';
 
 export default function LandingSection() {
 
-  const scrollDownMethod = () => {
+  const scrollDownMethod = (ref) => {
     window.scrollTo({
       top: window.innerHeight - 100,
       behavior: 'smooth'
     });
   };
+
+  const openWhatsapp = () => {
+    window.open('https://wa.me/6281293515750', '_blank');
+  }
+
+  const openInstagram = () => {
+    window.open('https://www.instagram.com/snacken.17/', '_blank');
+  }
 
   return (
     <section className='relative pt-[140px] pb-32'>
@@ -32,12 +39,12 @@ export default function LandingSection() {
             <p className='text-primary'>MODERN OUTLET</p>
             <h1 className='text-natural0 text-4xl md:text-5xl lg:text-6xl font-bold leading-normal'>
               Snacken 17 <br />
-              <span className=' text-primary'>Lorem Ipsum</span> <br />
-              Lorem
+              <span className=' text-primary'>Modern Outlet</span> <br />
+              untuk siswa SMKN 17
             </h1>
-            <div className="mt-4 mb-8">
-              <p className="text-natural0">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum</p>
-              <p className="text-natural0">Lorem Ipsum Lorem Ipsum Lorem Ipsum.</p>
+            <div className="mt-6 mb-8 col-span-2 flex lg:flex-row gap-4 md:flex-row">
+              <FaWhatsapp className="text-2xl text-green-500 w-35 h-35" onClick={openWhatsapp} />
+              <FaInstagram className="text-2xl text-pink-500 w-35 h-35" onClick={openInstagram} />
             </div>
             <div className="col-span-2 lg:flex gap-4 lg:mb-12">
               <PrimaryButton className="w-full lg:w-auto mb-6 lg:mb-0" onClick={scrollDownMethod}>

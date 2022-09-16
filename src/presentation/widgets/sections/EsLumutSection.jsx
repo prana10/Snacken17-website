@@ -16,19 +16,20 @@ export default function EsLumutSection() {
         </div>
         <div className="flex justify-center">
           <div className="max-w-md">
-            <h2 className="text-natural0 font-bold text-4xl mb-6 leading-normal">
+            <p className='text-primary font-bold'>Minuman</p>
+            <h2 className="text-natural0 font-bold text-4xl mb-2 leading-normal">
               Es Lumut
             </h2>
-            <p className='text-natural0'>Lorem Ipsum Lorem Ipsum Lorem Ipsum <br /> Lorem Ipsum</p>
+            <p className='text-natural0'>Memiliki tampilan yang menarik<br />mengandung gizi yang baik untuk tubuh</p>
 
             <ul className="my-6">
               <li className='mb-2 text-natural0'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
-                Lorem Ipsum Lorem Ipsum
+                Kemasan yang Simple dan mudah dibawa kemana saja
               </li>
               <li className='mb-2 text-natural0'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
-                Lorem Ipsum Lorem Ipsum
+                Tersedia Pre-Order
               </li>
               <li className='mb-2 text-natural0'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
