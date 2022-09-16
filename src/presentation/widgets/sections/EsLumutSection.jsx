@@ -5,6 +5,8 @@ import esLumut from '../../assets/illustrations/es_lumut.png';
 import { Fade } from 'react-reveal';
 import PrimaryButton from '../buttons/PrimaryButton';
 
+import { Link } from 'react-router-dom';
+
 export default function EsLumutSection() {
   return (
     <section className="container mx-auto py-32">
@@ -21,7 +23,6 @@ export default function EsLumutSection() {
               Es Lumut
             </h2>
             <p className='text-natural0'>Memiliki tampilan yang menarik<br />mengandung gizi yang baik untuk tubuh</p>
-
             <ul className="my-6">
               <li className='mb-2 text-natural0'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
@@ -37,9 +38,11 @@ export default function EsLumutSection() {
               </li>
             </ul>
 
-            <PrimaryButton className="w-full">
-              Buy Now
-            </PrimaryButton>
+            <Link to='/form'>
+              <PrimaryButton className="w-full">
+                Buy Now
+              </PrimaryButton>
+            </Link>
           </div>
         </div>
       </div>
