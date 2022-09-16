@@ -54,16 +54,17 @@ export default function FaqSection() {
                 Karena kami menyediakan produk yang berkualitas dan terpercaya. Kalian dapat memesan secara Pre-Order melalui Whatsapp langsung ataupun Lewat Website / Aplikasi.
               </FaqItem>
               <FaqItem open={false} title="Bagaimana Cara Memesan Lewat Whatsapp?">
-                Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem. Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem.
+                Untuk memesan lewat whatsapp secara langsung, silahkan ketik nama, kelas, makanan/minuman yang ingin di beli, lalu note (untuk catatan seperti ekstra bumbu).
+
               </FaqItem>
               <FaqItem open={false} title="bagaimana Caranya agar saya dapat membeli produk melalui website ?">
-                Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem. Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem.
+                Untuk Memesan Melalui Website kalian dapat buka website Snacken 17 lalu pilih makanan/minuman yang ingin dibeli, klik tombol "buy now" lalu dan klik tombol "buy now" nanti nya kalian akan diarahkan ke nomor whatsapp kami.
               </FaqItem>
               <FaqItem open={false} title="Selain melalui website, saya dapat membeli nya lewat platform apa ? ">
-                Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem. Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem.
+                Selain melalui website, kalian dapat memesan produk kami melalui aplikasi yang kami sediakan. dengan cara mengkilk tombol "download app" pada halaman utama kami dan pilih "android".
               </FaqItem>
               <FaqItem open={false} title="Apakah Aplikasi nya Tersedia untuk IOS / Iphone?">
-                Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem. Lorem ipsum. Lorem ipsum Lorem Lorem ip ip ipsum. Lorem Ipsum Lorem Ipsum, Lorem ipsum ipsum Lorem.
+                Untuk saat ini aplikasi kami hanya tersedia untuk android, untuk IOS / Iphone akan segera kami rilis.
               </FaqItem>
             </div>
           </div>
