@@ -18,7 +18,8 @@ export default function LandingSection() {
   };
 
   const openWhatsapp = () => {
-    window.open('https://wa.me/6281293515740', '_blank');
+    const note = 'Hi, saya ingin memesan cimol/es lumut (pilih salah satu atau keduanya) dengan jumlah ... (isi jumlah) dan saya ingin memesannya untuk tanggal ... (isi tanggal). nama ...(isi nama). kelas ... (khusus siswa/guru smkn 17). Rasa ... (khusus Cimol). Note ...(isi jika ada keterangan tambahan) Terima kasih.';
+    window.open('https://wa.me/6281293515740?text=' + note, '_blank');
   }
 
   const openInstagram = () => {
