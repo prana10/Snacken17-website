@@ -13,8 +13,9 @@ export default function CimolMerconSection() {
       <div className="grid md:grid-cols-2 gap-10">
         <div className="flex items-center">
           <div className="max-w-xl">
-            <h2 className="text-natural0 font-bold text-4xl mb-6 leading-normal">Cimol Mercon <br /> Lorem Ipsum Lorem Ipsum.</h2>
-            <p className="text-natural0 mb-6">Lorem Ipsum Lorem Ipsum Lorem Ipsum Lorem Ipsum  <br /> Lorem Ipsum Lorem Ipsum.</p>
+            <p className='text-primary font-bold'>Makanan Ringan</p>
+            <h2 className="text-natural0 font-bold text-4xl mb-6 leading-normal">Cimol Mercon</h2>
+            <p className="text-natural0 mb-6">Terbuat dari adonan Tepung kanji yang di cetak<br />Tersedia dalam 3 level</p>
 
             <ul className="my-6">
               <li className='mb-2 text-natural0'>
@@ -23,7 +24,7 @@ export default function CimolMerconSection() {
               </li>
               <li className='mb-2 text-natural0'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />
-                Lorem Ipsum Lorem Ipsum Lorem Ipsum
+                Tersedia Pre-Order
               </li>
               <li className='mb-2 text-natural0'>
                 <BsCheckCircleFill className='text-primary inline mr-2' />

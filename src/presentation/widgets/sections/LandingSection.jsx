@@ -42,7 +42,7 @@ export default function LandingSection() {
               <span className=' text-primary'>Modern Outlet</span> <br />
               untuk siswa SMKN 17
             </h1>
-            <div className="mt-6 mb-8 col-span-2 lg:flex gap-4">
+            <div className="mt-6 mb-8 col-span-2 flex lg:flex-row gap-4 md:flex-row">
               <FaWhatsapp className="text-2xl text-green-500 w-35 h-35" onClick={openWhatsapp} />
               <FaInstagram className="text-2xl text-pink-500 w-35 h-35" onClick={openInstagram} />
             </div>
